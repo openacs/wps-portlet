@@ -20,7 +20,7 @@ if {[llength $list_of_package_ids] > 1} {
 set package_id [lindex $list_of_package_ids 0]
 
 
-set user_id [ad_verify_and_get_user_id]
+set user_id [ad_conn user_id]
 
 
 db_multirow presentations select_presentations {

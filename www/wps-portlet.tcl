@@ -12,7 +12,7 @@ set shaded_p $config(shaded_p)
 set list_of_package_ids $config(package_id)
 set package_id [lindex $list_of_package_ids 0]
 set one_instance_p [ad_decode [llength $list_of_package_ids] 1 1 0]
-set user_id [ad_verify_and_get_user_id]
+set user_id [ad_conn user_id]
 
 set counter 0
 db_multirow presentations select_presentations { *SQL* } {
