@@ -11,8 +11,8 @@
 	<if @one_instance_p@ false>
 		<table border="0" bgcolor="white" cellpadding="2" cellspacing="3" width="100%">
  			<tr>
-				<td><strong>Name</strong></td>
-				<td><strong>Group</strong></td>
+				<td><strong>#wps-portlet.Name#</strong></td>
+				<td><strong>#wps-portlet.Group#</strong></td>
 			</tr>
 	</if>
 	<multiple name="presentations">
@@ -23,7 +23,7 @@
 	<if @one_instance_p@>
       		<li>
 	 	<a href="@presentations.url@display/@presentations.pres_item_id@/">@presentations.pres_title@</a> 
-		&nbsp;[&nbsp;<a href="@presentations.url@presentation-print-view.tcl?item_id=@presentations.pres_item_id@">Print View</a>&nbsp;]
+		&nbsp;[&nbsp;<a href="@presentations.url@presentation-print-view.tcl?item_id=@presentations.pres_item_id@">#wps-portlet.Print_View#</a>&nbsp;]
 		</li>
 	</if>
    	<else>
@@ -34,7 +34,7 @@
 			<tr bgcolor="#ffffff">
 		</else>
    		<td><a href="@presentations.url@display/@presentations.pres_item_id@/">@presentations.pres_title@</a> 			
-		&nbsp;[&nbsp;<a href="@presentations.url@presentation-print-view.tcl?item_id=@presentations.pres_item_id@">Print View</a>&nbsp;]
+		&nbsp;[&nbsp;<a href="@presentations.url@presentation-print-view.tcl?item_id=@presentations.pres_item_id@">#wps-portlet.Print_View#</a>&nbsp;]
 		</td>
    		<td>@presentations.parent_name@</td>
    		</tr>
@@ -53,16 +53,17 @@
  	<if @presentations:rowcount@ eq 1>
       		<li>
 	 	<a href="@presentation_url@display/@presentation_id@/"> @presentation_name@ </a>
-		&nbsp;[&nbsp;<a href="@presentation_url@presentation-print-view.tcl?item_id=@presentation_id@">Print View</a>&nbsp;]
+		&nbsp;[&nbsp;<a href="@presentation_url@presentation-print-view.tcl?item_id=@presentation_id@">#wps-portlet.Print_View#</a>&nbsp;]
 		</li>
 	</if>
 	<else>
-        <small>No Presentations Available</small>
+        <small>#wps-portlet.lt_No_Presentations_Avai#</small>
   	</else>
   </else>
 </if>
 <else>
 &nbsp;
 </else>
+
 
 
