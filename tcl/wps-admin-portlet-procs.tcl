@@ -33,7 +33,7 @@ namespace eval wps_admin_portlet {
 
     ad_proc -public get_pretty_name {
     } {
-	return "Wimpy Point Administration"
+	return "[_ wps-portlet.Administration]"
     }
 
     ad_proc -private my_package_key {
