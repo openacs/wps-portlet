@@ -15,5 +15,5 @@
         <small>#wps-portlet.lt_No_Presentations_Avai#</small>
 </else>
   <br>
-  <a href="@url@create-presentation">#wps-portlet.lt_Create_a_new_presenta#</a>
+  <a href="@url@add-edit-presentation">#wps-portlet.lt_Create_a_new_presenta#</a>
 
