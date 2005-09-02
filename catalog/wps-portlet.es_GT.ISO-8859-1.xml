@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="wps-portlet" package_version="2.0.2" locale="es_ES" charset="ISO-8859-1">
+
+  <msg key="Administration">Administración de Wimpy Point</msg>
+  <msg key="edit">editar</msg>
+  <msg key="Group">Grupo</msg>
+  <msg key="lt_Create_a_new_presenta">Crear nueva presentación</msg>
+  <msg key="lt_created_on_presentati">creado en %presentations.creation_date% &amp;nbsp;[&amp;nbsp;</msg>
+  <msg key="lt_No_Presentations_Avai">Ninguna Pesentación Disponible</msg>
+  <msg key="Name">Nombre</msg>
+  <msg key="Print_View">Vista de Impresión</msg>
+</message_catalog>
+
