@@ -18,7 +18,9 @@
         <callbacks>
         </callbacks>
         <parameters>
-        <!-- No version parameters -->
+            <parameter datatype="number"  min_n_values="1"  max_n_values="1"  name="AllowMembersToCreate"  default="1" description="Allow members in a class
+ or community to create a wimpy point presentation."/>
+
         </parameters>
 
     </version>
