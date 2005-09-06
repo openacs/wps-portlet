@@ -1,7 +1,6 @@
 <%
 #	@author Rocael Hernandez (roc@viaro.net)
 %>
-
 <if @shaded_p@ ne "t">
   <if @presentations:rowcount@ gt 1>
 	<%
@@ -70,5 +69,6 @@
 </else>
 <if @allow_member_create_p@>
 <br/><br/><a href="@url@add-edit-presentation">#wps-portlet.lt_Create_a_new_presenta#</a>
+<br /><a href="@url@">View all presentations</a>
 </if>
 

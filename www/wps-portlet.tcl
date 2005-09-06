@@ -30,5 +30,6 @@ if {${presentations:rowcount} == 1} {
 
 }
 set url [lindex [site_node::get_url_from_object_id -object_id $package_id] 0]
-set allow_member_create_p [parameter::get -parameter "AllowMembersToCreate"  -default 1]
-
+set allow_member_create_p [parameter::get_from_package_key \
+                    -package_key "wps-portlet" \
+                    -parameter "AllowMembersToCreate"  -default 1]
