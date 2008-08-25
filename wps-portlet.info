@@ -7,18 +7,20 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="2.0.2" url="http://openacs.org/repository/download/apm/wps-portlet-2.0.2.apm">
+    <version name="2.2.0a1" url="http://openacs.org/repository/download/apm/wps-portlet-2.2.0a1.apm">
         <owner url="mailto:roc@viaro.net">Rocael Hernandez</owner>
-        <provides url="wps-portlet" version="2.0.2"/>
-        <requires url="new-portal" version="0.1a"/>
-        <requires url="wp-slim" version="4.6"/>
+        <provides url="wps-portlet" version="2.2.0a1"/>
+        <requires url="new-portal" version="2.2.0a1"/>
+        <requires url="wp-slim" version="5.2.1d"/>
 
         <!-- No dependency information -->
 
         <callbacks>
         </callbacks>
         <parameters>
-        <!-- No version parameters -->
+            <parameter datatype="number"  min_n_values="1"  max_n_values="1"  name="AllowMembersToCreate"  default="1" description="Allow members in a class
+ or community to create a wimpy point presentation."/>
+
         </parameters>
 
     </version>
