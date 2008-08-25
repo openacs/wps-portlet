@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<message_catalog package_key="wps-portlet" package_version="2.0.2" locale="en_US" charset="ISO-8859-1">
+<message_catalog package_key="wps-portlet" locale="en_US" charset="ISO-8859-1">
 
+  <msg key="Administration">Wimpy Point Administration</msg>
   <msg key="edit">edit</msg>
   <msg key="Group">Group</msg>
   <msg key="lt_Create_a_new_presenta">Create a new presentation.</msg>
@@ -9,5 +10,4 @@
   <msg key="lt_No_Presentations_Avai">No Presentations Available</msg>
   <msg key="Name">Name</msg>
   <msg key="Print_View">Print View</msg>
-  <msg key="Administration">Wimpy Point Administration</msg>	
 </message_catalog>
